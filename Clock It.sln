@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persister", "Persister\Persister.csproj", "{A64B19E2-CC26-4A3C-B40E-926F4DD62132}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{A64B19E2-CC26-4A3C-B40E-926F4DD62132}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{AFE3D196-D3EA-4A3C-9B4C-C9BD113D90F1}"
 EndProject
