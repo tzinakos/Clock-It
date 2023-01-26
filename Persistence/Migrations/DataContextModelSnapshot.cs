@@ -26,7 +26,7 @@ namespace Persistence.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("TEXT");
 
-                    b.Property<Guid>("SettingsId")
+                    b.Property<Guid?>("SettingsId")
                         .HasColumnType("TEXT");
 
                     b.Property<Guid>("UserId")
@@ -79,9 +79,7 @@ namespace Persistence.Migrations
                 {
                     b.HasOne("Domain.Settings", "Settings")
                         .WithMany()
-                        .HasForeignKey("SettingsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("SettingsId");
 
                     b.HasOne("Domain.User", "User")
                         .WithMany("Projects")

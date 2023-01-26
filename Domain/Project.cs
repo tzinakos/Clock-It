@@ -6,7 +6,7 @@ public class Project
     
     public string Name { get; set; }
 
-    public Guid SettingsId { get; set; }
+    public Guid? SettingsId { get; set; }
     public Settings? Settings { get; set; }
     
     public Guid UserId { get; set; }
