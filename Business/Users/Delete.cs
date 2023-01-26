@@ -21,7 +21,7 @@ namespace Business.Users
 
             public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
             {
-                var user = Context.Users.Find(request.Id);
+                var user = await Context.Users.FindAsync(request.Id);
                 Context.Users.Remove(user);
                 await Context.SaveChangesAsync();
 
