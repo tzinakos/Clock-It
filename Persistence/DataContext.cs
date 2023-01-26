@@ -10,6 +10,11 @@ public class DataContext : DbContext
     public DbSet<User> Users { get; set; }
     
     public DbSet<Project> Projects { get; set; }
-    
+
     public DbSet<Settings> Settings { get; set; }
+
+    public object Get<T>()
+    {
+        return this.GetType().GetProperty(nameof(T)).Module;
+    }    
 }
