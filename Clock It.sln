@@ -1,18 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{A64B19E2-CC26-4A3C-B40E-926F4DD62132}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{A64B19E2-CC26-4A3C-B40E-926F4DD62132}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{AFE3D196-D3EA-4A3C-9B4C-C9BD113D90F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{AFE3D196-D3EA-4A3C-9B4C-C9BD113D90F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{65ED6AF9-A63F-4892-A728-89FDC254D939}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Business.csproj", "{65ED6AF9-A63F-4892-A728-89FDC254D939}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{A0FD22D6-9922-4E94-B632-785F9D8826E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{A0FD22D6-9922-4E94-B632-785F9D8826E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{233870C1-EA43-49E9-9392-108E43B1515A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{233870C1-EA43-49E9-9392-108E43B1515A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3E0C2AFE-0477-481F-881E-E0C81096BED3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessUnitTests", "BusinessUnitTests\BusinessUnitTests.csproj", "{15AC39D8-6930-4D14-A689-8BA4620E63CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessUnitTests", "BusinessUnitTests\BusinessUnitTests.csproj", "{15AC39D8-6930-4D14-A689-8BA4620E63CE}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "webapp", "WebApp\webapp.esproj", "{86A98DD9-AA5E-4B19-AD83-0E3E2BB92071}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,8 +49,20 @@ Global
 		{15AC39D8-6930-4D14-A689-8BA4620E63CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15AC39D8-6930-4D14-A689-8BA4620E63CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15AC39D8-6930-4D14-A689-8BA4620E63CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86A98DD9-AA5E-4B19-AD83-0E3E2BB92071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A98DD9-AA5E-4B19-AD83-0E3E2BB92071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A98DD9-AA5E-4B19-AD83-0E3E2BB92071}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{86A98DD9-AA5E-4B19-AD83-0E3E2BB92071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A98DD9-AA5E-4B19-AD83-0E3E2BB92071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86A98DD9-AA5E-4B19-AD83-0E3E2BB92071}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{15AC39D8-6930-4D14-A689-8BA4620E63CE} = {3E0C2AFE-0477-481F-881E-E0C81096BED3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49F61B6F-BEB2-41F3-9816-515530454319}
 	EndGlobalSection
 EndGlobal
